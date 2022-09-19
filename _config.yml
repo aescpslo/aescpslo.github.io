@@ -21,7 +21,7 @@
 title: Cal Poly Audio Engineering Society
 email: aes.cp.slo@gmail.comcom
 description: >- # this means to ignore newlines until "baseurl:"
-  A student club making sounds at Cal Poly, San Luis Obispo. 
+  A professional student engineering club making sounds at Cal Poly, San Luis Obispo! 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
@@ -59,9 +59,9 @@ logo: "/assets/images/logo.png"
 
 
 # Aux links for the upper right navigation
-aux_links:
-  "Just the Docs on GitHub":
-    - "//github.com/just-the-docs/just-the-docs"
+# aux_links:
+#   "Just the Docs on GitHub":
+#     - "//github.com/just-the-docs/just-the-docs"
 
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: true 
@@ -70,7 +70,7 @@ aux_links_new_tab: true
 color_scheme: light # Dark ruins calendar integration theme.
 
 # External navigation links
-nav_external_links:
-  - title: Google Drive
-    url: https://drive.google.com/drive/folders/1BTr-lIUSjB0bN4j-KjtvI7y7t797VIwz?usp=sharing
+# nav_external_links:
+#   - title: Google Drive
+#     url: https://drive.google.com/drive/folders/1BTr-lIUSjB0bN4j-KjtvI7y7t797VIwz?usp=sharing
 #    hide_icon: false # set to true to hide the external link icon - defaults to false
