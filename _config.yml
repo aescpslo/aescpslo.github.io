@@ -19,7 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Cal Poly Audio Engineering Society
-email: aes.cp.slo@gmail.comcom
+email: aes.cp.slo@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   A professional student engineering club making sounds at Cal Poly, San Luis Obispo! 
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -30,7 +30,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # Build settings
 #theme: minima
 remote_theme: just-the-docs/just-the-docs
-#theme: "just-the-docs"
+#theme: "just-the-docs"                     # Comment this out when pushing to GitHub!
 plugins:
   - jekyll-feed
 
