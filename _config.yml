@@ -18,19 +18,19 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
+title: Cal Poly Audio Engineering Society
+email: aes.cp.slo@gmail.comcom
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  A student club making sounds at Cal Poly, San Luis Obispo. 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+#twitter_username: jekyllrb
+#github_username:  jekyll
 
 # Build settings
-theme: minima
+#theme: minima
+remote_theme: just-the-docs/just-the-docs
+#theme: "just-the-docs"
 plugins:
   - jekyll-feed
 
@@ -53,3 +53,24 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+# Replace title text with logo
+logo: "/assets/images/logo.png"
+
+
+# Aux links for the upper right navigation
+aux_links:
+  "Just the Docs on GitHub":
+    - "//github.com/just-the-docs/just-the-docs"
+
+# Makes Aux links open in a new tab. Default is false
+aux_links_new_tab: true 
+
+# Color scheme (light / dark)
+color_scheme: light # Dark ruins calendar integration theme.
+
+# External navigation links
+nav_external_links:
+  - title: Google Drive
+    url: https://drive.google.com/drive/folders/1BTr-lIUSjB0bN4j-KjtvI7y7t797VIwz?usp=sharing
+#    hide_icon: false # set to true to hide the external link icon - defaults to false
